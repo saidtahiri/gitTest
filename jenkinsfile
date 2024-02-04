@@ -5,6 +5,7 @@ pipeline {
         stage('SCM checkout') {
             steps {
                 echo 'checkout completed'
+                 echo 'checkout from github completed'
             }
         }
         
